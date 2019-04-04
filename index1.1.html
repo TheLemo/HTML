@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+	<style>
+
+		body {
+		  color: black;
+			background-color: white;
+			margin: 20px;
+			padding: 2px;
+		  font-family: Arial, sans-serif;
+		  text-align: justify;
+		}
+		p {
+		  font-size:12pt;
+		}
+		.rot {
+			color: red;
+		}
+
+		li {
+		  padding-bottom: 5px;
+		  text-align: left;
+		  font-size:10pt;
+
+		}
+		h1 {
+		  color: black;
+		  text-align: center;
+			font-family: 'Montserrat', sans-serif;
+			text-transform: uppercase;
+			margin: 180px;
+			font-size: 40pt;
+		}
+		h2 {
+		  padding-top: 50px;
+		}
+		.art {
+			margin: 5%;
+			padding: 5%;
+			color: white;
+			background-color: white;
+			color: black;
+			font-family: 'Roboto Condensed', sans-serif;
+			text-align: center;
+			padding-top: 0px;
+			box-shadow: 20px 20px 15px grey;
+			border: 3px solid black;
+			animation: scalein 0.1s;
+		}
+		.art:hover {
+			animation: scaleout 0.1s;
+			box-shadow: 0px 0px 0px grey;
+			transform: scale3d(0.99, 0.99, 0.99);
+		}
+		.art p {
+			text-align: justify;
+		}
+		.art h2 {
+			margin: 10%;
+			margin-top: 0px;
+		}
+
+		 @keyframes scaleout {
+			 from {
+				 transform: scale3d(1, 1, 1);
+				 box-shadow: 20px 20px 15px grey;
+			 }
+			 to {
+				 transform: scale3d(0.99, 0.99, 0.99);
+				 box-shadow: 0px 0px 0px grey;
+			 }
+		 }
+		 @keyframes scalein {
+			 from {
+				 transform: scale3d(0.99, 0.99, 0.99);
+				 box-shadow: 0px 0px 0px grey;
+			 }
+			 to {
+				 transform: scale3d(1, 1, 1);
+				 box-shadow: 20px 20px 15px grey;
+			 }
+		 }
+	</style>
+
+	<meta charset="utf-8">
+	<title>Leo</title>
+
+</head>
+
+<body>
+	<div class="content">
+
+	<h1>HTML ist <span class="rot"><ins>keine</ins></span> Programmiersprache</h1>
+	<hr>
+	<marquee><em>Ich bin ein Lauftext!</em></marquee>
+
+
+	<div class="art">
+		<h2>Was ist HTML?</h2>
+		<p>HTML ist die Abkürzung von <strong>"HyperText Markup Language"</strong> und ist eine
+ textbasierte Auszeichnungssprache zur Strukturierung elektronischer
+Dokumente wie Texte mit Hyperlinks, Bildern und anderen Inhalten.
+HTML-Dokumente sind die Grundlage des <a href="WWW.html">World Wide Web</a>
+ und werden von <ins>Webbrowsern</ins> dargestellt. Neben den vom Browser
+angezeigten Inhalten können HTML-Dateien zusätzliche Angaben in Form von
+ Metainformationen enthalten, z. B. über die im Text verwendeten
+Sprachen, den Autor oder den zusammengefassten Inhalt des Textes.
+		HTML dient als Auszeichnungssprache dazu, einen Text semantisch zu
+strukturieren, nicht aber zu formatieren. Die visuelle Darstellung ist
+nicht Teil der HTML-Spezifikationen und wird durch den Webbrowser und
+Gestaltungsvorlagen wie <a href="CSS.html">CSS</a>  bestimmt.</p>
+</div>
+	<div class="art">
+			<h2> Und warum ist HTML keine Programmiersprache? </h2>
+
+			<p id="erklärung"> HTML-Seiten werden weder programmiert, noch sind
+Menschen, die HTML schreiben, Programmierer. HTML ist stattdessen eine
+Auszeichnungsprache (dafür stehen auch die letzten beiden Buchstaben des
+ englischen Akronyms: HTML – Hypertext Markup Language) und HTML wird
+nicht programmiert, sondern einfach geschrieben. Eine Auszeichnungsprache ist eine maschinenlesbare Sprache für die Gliederung und Formatierung von Texten und anderen Daten. Das Schreiben von
+HTML-Seiten ist so ungefähr auf dem Level mit dem Schreiben von
+Word-Dokumenten (es soll ja sogar Leute geben, die HTML-Seiten auch
+tatsächlich mit Word schreiben). HTML hat keine Befehle und es fehlen
+essenzielle Sprachkonstrukte von „echten“ Programmiersprachen
+(Schleifen, Bedingungen etc.). Man kann also keine Algorithmen in HTML
+schreiben.
+			Echte Programmiersprachen im Web sind hingegen <a href="Java.html">Java</a> , <a href="JavaScript.html">JavaScript</a>, <a href="Python.html">Python</a> und <a href="PHP.html">PHP</a>. Sie können mit HTML kombiniert werden, machen deshalb aber aus HTML keine Programmiersprache.</p>
+	</div>
+
+	<div class="art">
+		<h2>Wieso denken Leute überhaupt das HTML eine Programmiersprache ist?</h2>
+			<p>So gut wie alle Leute die dir erzählen dass HTML eine
+Programmiersprache ist, sind entweder sogenannte Script Kiddies oder
+Leute die sich noch nie richtig damit beschäftigt haben.
+			Der Begriff Script Kiddie beschreibt vornehmlich jugendliche
+Computernutzer, die trotz mangelnder Grundlagenkenntnisse versuchen, in
+fremde Computersysteme einzudringen oder sonstigen Schaden anzurichten.
+Zum Beispiel 12 Jährige Kinder für die es aus ihrer Sicht kein Problem
+ist mal eben mit HTML die NASA zu hacken und danach in CMD schnell die
+Textfarbe in Grün zu ändern und noch eben mit "ping google.de" die
+Google Server zu hacken.
+<br>
+Hier ist ein Beispiel Video von einem Script Kiddie:
+
+</p>
+	<iframe width="885" height="498" src="https://www.youtube.com/embed/UhAh4ynMX8U" frameborder="0"
+	allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+
+</body>
+</html>
